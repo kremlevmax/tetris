@@ -1,10 +1,10 @@
 import "./App.css";
-import Game from "./components/Game/Game";
+import Tetris from "./components/Tetris/Tetris";
 
 function App() {
   return (
     <div className='App'>
-      <Game rows={20} columns={40} />
+      <Tetris />
     </div>
   );
 }
