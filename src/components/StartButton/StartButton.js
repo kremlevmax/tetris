@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const StyledStartButton = styled.button`
   box-sizing: border-box;
@@ -8,14 +8,19 @@ const StyledStartButton = styled.button`
   padding: 20px;
   min-height: 30px;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 2px;
   border: none;
   color: white;
-  background: #333;
-  font-family: Pixel, Arial, Helvetica, sans-serif;
+  background: #7b923f;
+  text-transform: uppercase;
+  /* font-family: Pixel, Arial, Helvetica, sans-serif; */
   font-size: 1rem;
   outline: none;
   cursor: pointer;
+  transition: all 400ms ease;
+  &:hover {
+    background: #afba73;
+  }
 `;
 
 const StartButton = ({ callback }) => (

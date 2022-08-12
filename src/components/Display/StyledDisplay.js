@@ -9,9 +9,14 @@ export const StyledDisplay = styled.div`
   border: 4px solid #333;
   min-height: 30px;
   width: 100%;
-  border-radius: 20px;
-  color: ${(props) => (props.gameOver ? "red" : "#999")};
-  background: #000;
-  font-family: Pixel, Arial, Helvetica, sans-serif;
+  color: ${(props) => (props.gameOver ? "red" : "white")};
+  background: rgba(255, 202, 58, 1);
+  border: 4px solid;
+  border-bottom-color: rgba(255, 202, 58, 0.1);
+  border-right-color: rgba(255, 202, 58, 1);
+  border-top-color: rgba(255, 202, 58, 1);
+  border-left-color: rgba(255, 202, 58, 0.3);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
 `;
